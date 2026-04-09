@@ -49,6 +49,7 @@ export function contarLetra(texto, letra) {
   for (const caractere of texto){
     if (caractere === letra){
       contador++
+      
     }
   }
   return contador
